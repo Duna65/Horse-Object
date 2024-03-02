@@ -22,7 +22,7 @@ public class string {
     public String toString (){
         return name;
     };
-    public static void main(String[] args) {
+    public static void main(String[] args) { //declares the horse's name and birth year and uses the method "print"
         string horse1 = new string("Tricky",2015);
         string horse2 = new string("Clove",2013);
         string horse3 = new string("Hopper",2018);
@@ -30,7 +30,7 @@ public class string {
             print(horse2);
             print(horse3);
         }
-        public static void print(string horse) {
+        public static void print(string horse) {//prints the horse's name and birth year
             System.out.println("Name: " + horse.name);
             System.out.println("Birth Year: " + horse.birthYear);
             System.out.println();
